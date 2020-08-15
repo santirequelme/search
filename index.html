@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="icon" href="s_ico.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-transparent">
+        <a class="navbar-item" href="index.html">
+                <img src="search_logo.png" alt="logo"
+                  width="110" height="25">
+        </a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="image.html">
+              <button type="button" class="BtnNav">Image Search</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advanced.html">
+              <button type="button" class="BtnNav">Advanced Search</button>
+              </a>
+            </li>
+        </ul>
+        </nav> 
+        <div class="conteiner">
+            <div class="row">
+                <img class="logol" src="search_logo.png" alt="logo">
+            </div>
+        </div>    
+        <div class="conteiner">
+          <div class="row justify-content-center">
+          <form action="https://www.google.com/search">
+              <div class="searchbar">
+                <input class="search_input" type="text" name="q" size="64">
+                <a class="search_icon"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="btn-group">
+                <input class="BtnBrows" value="Google Search" aria-label="Google Search" name="btnK" type="submit">
+                <input class="BtnBrows" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="sf.lck">
+              </div>
+            </div> 
+          </form>
+        </div>
+      </body>
+</html>

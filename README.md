@@ -1,4 +1,4 @@
-# This is project 0 of the course ### [CS50's Web Programming with Python and JavaScript at Harvard University](https://cs50.harvard.edu/web/2020/)
+# This is project 0 of the course [CS50's Web Programming with Python and JavaScript at Harvard University](https://cs50.harvard.edu/web/2020/)
 
  **Search**
  Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
